@@ -1,3 +1,6 @@
+#ifndef _CEPOLL_H_
+#define _CEPOLL_H_
+
 #include "ServerPublib.h"
 
 class CEpoll
@@ -27,3 +30,5 @@ private:
     int             m_EvNum;
     bool            m_IsAttached;
 };
+
+#endif
